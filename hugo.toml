@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://app-7aa76bf2-8b3d-4158-808a-af243c92a01d.cleverapps.io'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
