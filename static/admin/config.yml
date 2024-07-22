@@ -4,7 +4,7 @@ backend:
   auth_type: pkce # Required for pkce
   app_id: 7b87c2fb18f365a907027fdc8b40f5e9142ec1752b082400b4187bdab63b9b6e # Application ID from your GitLab settings
   api_root: https://heptapod.host/api/v4
-  base_url: https://heptapod.host/
+  base_url: https://heptapod.host
   auth_endpoint: oauth/authorize
 media_folder: "static/images"
 public_folder: "/images/uploads"
