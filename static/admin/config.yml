@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: juliamrch/decap-cms-hugo.git 
+media_folder: "static/images"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Post"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "Post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
