@@ -1,11 +1,8 @@
 backend:
   name: gitlab
-  repo: tam-shenanigans/decap-cms-hugo # Path to your GitLab repository
+  repo: julia.navarro/decap-cms-hugo # Path to your GitLab repository
   auth_type: pkce # Required for pkce
-  app_id: 7b87c2fb18f365a907027fdc8b40f5e9142ec1752b082400b4187bdab63b9b6e
-  api_root: https://heptapod.host/api/v4
-  base_url: https://heptapod.host
-  auth_endpoint: oauth/authorize
+  app_id: f2335c8f0b15f2df9b154ad2e0b20e531e24aceb2f37d8e889c52a5eff33a31f
 media_folder: "static/images"
 public_folder: "/images/uploads"
 
